@@ -53,6 +53,20 @@ bot.on('ready', () =>{
 
 
 
+bot.on('message',msg=>{
+    let args=msg.content.split(" ");
+    for(i=0;i<args.length;i++)
+    {
+        x=args[i].toLowerCase();
+        if(x==="amith"){
+            msg.channel.send("Valorant Simhame");
+       
+        }
+    }
+        
+    })
+    
+
 
 
 
